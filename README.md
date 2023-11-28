@@ -1,5 +1,3 @@
-
-
 class TodoList:
     def __init__(self):
         self.tasks = []
@@ -29,8 +27,11 @@ class TodoList:
             print(f"Task '{deleted_task}' deleted successfully.")
         else:
             print("Invalid task index.")
+
+
 def main():
     todo_list = TodoList()
+
     while True:
         print("\n===== To-Do List Menu =====")
         print("1. Add Task")
@@ -62,5 +63,7 @@ def main():
 
         else:
             print("Invalid choice. Please enter a number between 1 and 5.")
+
+
 if __name__ == "__main__":
     main()
