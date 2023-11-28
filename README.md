@@ -1,5 +1,5 @@
-# task1
-This simple To-Do List application allows you to add tasks, view the list, mark tasks as completed, and delete tasks. It's a console-based application, but you can later extend it to have a graphical user interface (GUI) or integrate it with a web framework for a more user-friendly experience.
+
+
 class TodoList:
     def __init__(self):
         self.tasks = []
